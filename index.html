@@ -1,25 +1,15 @@
-<!DOCTYPE html>
-<html>
-
-    <style>
+<!DOCTYPE html> <html> <head> <title>My Website</title>
+<style>
     body {
         background-color: #f0f0f0;
         background-image: url("background.png");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
+        min-height: 100vh;
+        margin: 0;
     }
-        
-</style>
 
-    
-<head>
-    <title>My Website</title>
-</head>
-
-    
-<body> <h1 class="title">Marketplace COMING SOON</h1> <p class="subtitle">creating this soon.</p>
-<style>
     .title {
         text-align: center;
         margin-top: 40px;
@@ -34,10 +24,45 @@
         font-family: Arial, sans-serif;
         font-size: 18px;
     }
+
+    details {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    summary {
+        display: inline-block;
+        padding: 12px 24px;
+        background-color: #007bff;
+        color: white;
+        border-radius: 8px;
+        cursor: pointer;
+        font-family: Arial, sans-serif;
+        font-size: 18px;
+    }
+
+    .dropdown-content {
+        padding: 10px 20px;
+        color: white;
+        font-family: Arial, sans-serif;
+    }
 </style>
 
-</body>
+</head> <body>
+<h1 class="title">Marketplace COMING SOON</h1>
 
+<p class="subtitle">creating this soon.</p>
+
+<details>
+    <summary>Items</summary>
+
+    <div class="dropdown-content">
+        <p>test1</p>
+        <p>test2</p>
+    </div>
+</details>
+
+</body> </html>   
 
     
-</html>
+
